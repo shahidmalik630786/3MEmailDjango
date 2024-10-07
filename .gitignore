@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django secret key file (if any)
+.env
+*.env
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Media and static files
+/media/
+staticfiles/
+static/
+
+# Local development environment settings
+local_settings.py
+
+# Venv folder
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and debugging files
+*.log
+*.pot
+*.pyc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Migrations
+*.mo
+*.pot
+migrations/
+
+# Docker files
+docker-compose.override.yml
+docker-compose.yml
